@@ -18,7 +18,7 @@ To use follow these instructions:
   	-v   Verbatim option, displays information about the compression.
 
  Issues:
- 	So far the compression algorithm works fine. A few minor adjustments to the io.c file were made that perform the compression in a different way. You may get wrong output for decompressing using other people's LZW decoder programs. I checked the contents of the memory file line by line and it showed correct compression, it is just formatted in a slightly different way.
+ 	So far the compression algorithm works fine. A few minor adjustments to the io.c file were made that perform the compression in a different way. You may get wrong output for decompressing using other people's LZW decoder programs. I checked the contents of the memory file line by line and it showed correct compression, it is just formatted in a slightly different way. Currently working on a fix.
  	Also, the decompression is not working correctly, which is due to a problem in the main.c file that I have enough time to correct. The problem relies within the main decompression loop.
  	The other files work perfectly. 
  	The lines of code that produce memory leaks in the main.c file are commented out to avoid said memory leaks.
