@@ -2,7 +2,9 @@ README for The Great Firewall of Santa Cruz
 
 This program evaluates words from STDIN and evaluates
 if they appear in a list of old speak or bad speak 
-words. To use the program do the following:
+words. It uses both a bloom filter and a hash table
+to keep track of the keys and values and their ocurrences
+To use the program do the following:
 
 - Use "make" or "make all" to compile the program
 - Call the excecutable "newspeak" 
