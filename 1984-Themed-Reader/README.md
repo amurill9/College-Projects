@@ -15,7 +15,6 @@ To use the program do the following:
 	-b   Not use move-to-front (Run normally)
 
 - Type into STDIN the words that you want to check
-- A message from the program will explain your word usage
-- Use "make clean" to remove excecutables and object files
-
-	* For some reason I couldn't have "make infer" work. (I will go to office hours to discuss this issue) 
+- A message from the program will explain your word usage, hopefully you only used
+words that conform to our government policies. We don't want to send you to JoyCamp
+but Big Brother will do so if needed.
